@@ -341,7 +341,7 @@ fi
 while [[ $# -ge 1 ]]; do
   case "${1}" in
     -b|--boot)
-      THEME_DIR="/boot/grub/themes"
+      THEME_DIR="/boot/grub2/themes"
       ;;
     -l|--slaze)
       theme='slaze'
